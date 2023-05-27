@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+html{
+    background-color: #222222;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2pc;
+}
+
+.card{
+    width: 600px;
+    padding: 1pc;
+    border-radius: 20pt;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.card-main{
+    width: 100%;
+}
+
+.card-img img{
+    width: 200px;
+    height: 200px;
+}
+
+.txt-area{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    gap: 1pc;
+}
+
+.txt-area input{
+   padding: 2% 20px;
+   border-radius: 10pt;
+   border: none;
+   background-color: #ffffff82;
+   outline: none;
+   width: 100%;
+}
+
+.txt-area button{
+    width: 45px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    display: grid;
+    place-items: center;
+}
+
+.txt-area button img{
+    width: 40%;
+    height: 40%;
+}
+
+.city-data{
+    text-align: center;
+    margin-bottom: 2pc;
+}
+
+.city-data .temperature{
+    font-size: 6rem;
+   margin-top: -2pc;
+}
+
+.city-data .city-name{
+    font-size: 2rem;
+    text-transform: capitalize;
+}
+
+.temp-data{
+    padding-top: 2pc;
+    border-top: 5px solid #ffffff;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 2pc;
+}
+
+.windspeed img,
+.humidity img{
+    height: 65px;
+}
+
+.windspeed,
+.humidity{
+    text-align: center;
+}
